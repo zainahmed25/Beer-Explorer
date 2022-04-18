@@ -89,7 +89,7 @@ export default class BeerList extends NavigationMixin(LightningElement) {
 
     }
     
-
+// This is also my learning
     @wire(searchBeer)
         wiredRecords({error, data}){
             
